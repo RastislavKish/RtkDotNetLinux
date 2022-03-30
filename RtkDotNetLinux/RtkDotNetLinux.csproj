@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>RtkDotNetLinux</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>RastislavKish</Authors>
+    <Company></Company>
+    <PackageLicenseExpression>LGPL-2.1-only</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/RastislavKish/RtkDotNetLinux</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GtkSharp" Version="3.24.24.34" />
+    <PackageReference Include="NVorbis" Version="0.10.4" />
+    <PackageReference Include="OpenTK.OpenAL" Version="4.7.1" />
+  </ItemGroup>
+
+</Project>
